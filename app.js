@@ -12,9 +12,9 @@ app.set("view engine","ejs");
 // let userList=["wakeup at 8","make food"];
 // let workList=[];
 
-const db="mongodb+srv://adhithya:user1205@cluster0.rowlkxg.mongodb.net/todolistDB";
+const URI="mongodb+srv://adhithya:user1205@cluster0.rowlkxg.mongodb.net/todolistDB";
 
-mongoose.connect(db, { 
+mongoose.connect(URI, { 
         useNewUrlParser: true
         
       })
